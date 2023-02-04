@@ -1,0 +1,14 @@
+{
+  "appium": {
+    "alwaysMatch" :{
+      "capabilities": {
+        "platformName": "android",
+        "appium:deviceName": "Emulator",
+        "appium:udid": "emulator-5554",
+        "appium:appPackage": "ru.tstst.mysubsidie.debug",
+        "appium:appActivity": "ru.tstst.app.launcher.presentation.LauncherActivity"
+      }
+    },
+    "url": "http://0.0.0.0:4723/"
+  }
+}
